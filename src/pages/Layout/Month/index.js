@@ -1,12 +1,5 @@
-import { Button } from "antd-mobile";
-
 const Month = () => {
-  return (
-    <div>
-      我是Month
-      <Button color="primary">测试</Button>
-    </div>
-  );
+  return <div>我是Month啊</div>;
 };
 
 export default Month;
