@@ -20,6 +20,7 @@ const Layout = () => {
   useEffect(() => {
     dispatch(fetchBillList());
   }, [dispatch]);
+  useEffect(() => {});
   const tabs = [
     {
       key: "/month",
